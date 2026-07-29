@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Firekeep — client distribution</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{background:#0A0B0E;color:#E6E8EC;font:16px/1.6 system-ui,sans-serif;
+       margin:0;padding:12vh 6vw;max-width:46rem}
+  h1{font-size:1.5rem;letter-spacing:-.02em;margin:0 0 .5rem}
+  .m{color:#FF7A2F}
+  p{color:#9AA0AB}
+  pre{background:#08090B;border:1px solid #282C33;border-radius:8px;
+      padding:14px 16px;overflow-x:auto;font-size:13px;color:#E6E8EC}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  a{color:#FF7A2F}
+  small{color:#7B838F;display:block;margin-top:2.5rem;font-size:12.5px}
+</style>
+<h1><span class="m">Firekeep</span> — client distribution</h1>
+<p>Release artifacts for the Firekeep client kit. This host serves checksum-verified
+   wheels and bootstrap scripts; it contains no product source.</p>
+<pre><code># macOS / Linux
+curl -fsSL https://kapella-hub.github.io/firekeep-dist/latest/install.sh | sh
+
+# Windows (PowerShell)
+irm https://kapella-hub.github.io/firekeep-dist/latest/install.ps1 | iex</code></pre>
+<p>Every artifact is listed with its SHA-256 in <code>&lt;version&gt;/SHA256SUMS</code>.
+   The bootstrap verifies both the toolchain and the wheel against it before either
+   is executed.</p>
+<small>Firekeep is self-hosted software licensed per agreement; it is not open source.
+   © 2026 Omnicron, LLC.</small>
