@@ -1,5 +1,5 @@
 {
-  "version": "0.1.34",
-  "bootstrap_sha256": "dcb8efd604e8576becbdfb5fecfd00b65293e9ca04faaf83b0baa125089e1532",
-  "bootstrap_ps1_sha256": "6948675f68d89a9dc34d8ca16064a1ba3af4008bbb76a84e8df035293e8e7a6b"
+  "version": "0.1.35",
+  "bootstrap_sha256": "df2a351f9dbceb01c0832e01a188f955b602560d809b62e74bfcd2a7395a789b",
+  "bootstrap_ps1_sha256": "46040ee55e27f80d672ac1a597e657e2b2a36c6bb4ef2de9441db934cdaf120b"
 }
