@@ -292,7 +292,7 @@ if ($env:FIREKEEP_SUMS_FILE -and $env:FIREKEEP_VERSION) {
 # Skipped entirely under a handed FIREKEEP_SUMS_FILE (mirrors install.sh 3b): the
 # client already did the authoritative verification against ITS pinned key, and a
 # handed file means NO network round trips on this path — not even for the .minisig.
-$SigningPubDefault = '__FIREKEEP_SIGNING_PUB_DEFAULT__'
+$SigningPubDefault = 'RWRhSg0k0YNtfVG2DYqWZCyZaY9XRylvhxNdX3k0dseC0xoSSxnvrdh/'
 $SigPlaceholder = '__FIREKEEP_SIGNING_PUB_' + 'DEFAULT__'
 if ($SigningPubDefault -eq $SigPlaceholder) { $SigningPubDefault = '' }
 $SigningPub = if ($env:FIREKEEP_SIGNING_PUB) { $env:FIREKEEP_SIGNING_PUB } else { $SigningPubDefault }

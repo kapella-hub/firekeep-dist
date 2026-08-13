@@ -343,7 +343,7 @@ fi
 # authoritative verification against ITS pinned key, and "under a handed file, do
 # not fetch at all" is the contract — fetching the .minisig here would reopen a
 # network round trip on a path whose whole point is that it makes none.
-SIGNING_PUB_DEFAULT="__FIREKEEP_SIGNING_PUB_DEFAULT__"
+SIGNING_PUB_DEFAULT="RWRhSg0k0YNtfVG2DYqWZCyZaY9XRylvhxNdX3k0dseC0xoSSxnvrdh/"
 sig_placeholder="__FIREKEEP_SIGNING_PUB_""DEFAULT__"
 [ "${SIGNING_PUB_DEFAULT}" = "${sig_placeholder}" ] && SIGNING_PUB_DEFAULT=""
 SIGNING_PUB="${FIREKEEP_SIGNING_PUB:-${SIGNING_PUB_DEFAULT}}"
